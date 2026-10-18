@@ -1,0 +1,98 @@
+/*
+ * FaceGate Design tokens — Sleek Biometric Terminal Aesthetic
+ * Premium dark mode by default, high-contrast crisp light mode.
+ */
+
+:root {
+  /* Default: Modern Dark / Slate */
+  --bg: #090b0e;
+  --bg-gradient: radial-gradient(circle at 50% 0%, rgba(245, 166, 35, 0.05), transparent 45%);
+  --surface: #11141a;
+  --surface-2: #181d26;
+  --surface-hover: #1f2532;
+  --border: #222936;
+  --border-light: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(245, 166, 35, 0.4);
+  
+  --text: #f0f3f8;
+  --text-muted: #8491a5;
+  --text-subtle: #4e5a6e;
+  
+  /* FaceGate Amber & Biometric Accents */
+  --accent: #f5a623;
+  --accent-hover: #e09419;
+  --accent-contrast: #000000;
+  --accent-glow: rgba(245, 166, 35, 0.25);
+  
+  --success: #10b981;
+  --success-bg: rgba(16, 185, 129, 0.12);
+  --success-border: rgba(16, 185, 129, 0.3);
+  
+  --danger: #ef4444;
+  --danger-bg: rgba(239, 68, 68, 0.12);
+  --danger-border: rgba(239, 68, 68, 0.3);
+
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.5);
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Type scale */
+  --font-size-xs: 12px;
+  --font-size-sm: 13.5px;
+  --font-size-base: 15px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  --sidebar-width: 256px;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root[data-theme="light"] {
+  --bg: #f8fafc;
+  --bg-gradient: radial-gradient(circle at 50% 0%, rgba(245, 166, 35, 0.08), transparent 45%);
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --surface-hover: #e2e8f0;
+  --border: #e2e8f0;
+  --border-light: rgba(0, 0, 0, 0.06);
+  --border-accent: rgba(245, 166, 35, 0.5);
+  
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --text-subtle: #94a3b8;
+  
+  --accent: #d97706;
+  --accent-hover: #b45309;
+  --accent-contrast: #ffffff;
+  --accent-glow: rgba(217, 119, 6, 0.2);
+  
+  --success: #059669;
+  --success-bg: rgba(5, 150, 105, 0.1);
+  --success-border: rgba(5, 150, 105, 0.25);
+  
+  --danger: #dc2626;
+  --danger-bg: rgba(220, 38, 38, 0.1);
+  --danger-border: rgba(220, 38, 38, 0.25);
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+

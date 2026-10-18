@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="#0f1117" stroke="#f5a623" stroke-width="1.5" stroke-opacity="0.5"/>
+  <path d="M7 11V8C7 7.44772 7.44772 7 8 7H11" stroke="#f5a623" stroke-width="2" stroke-linecap="round"/>
+  <path d="M21 7H24C24.5523 7 25 7.44772 25 8V11" stroke="#f5a623" stroke-width="2" stroke-linecap="round"/>
+  <path d="M25 21V24C25 24.5523 24.5523 25 24 25H21" stroke="#f5a623" stroke-width="2" stroke-linecap="round"/>
+  <path d="M11 25H8C7.44772 25 7 24.5523 7 24V21" stroke="#f5a623" stroke-width="2" stroke-linecap="round"/>
+  <path d="M11.5 14C11.5 11.5147 13.5147 9.5 16 9.5C18.4853 9.5 20.5 11.5147 20.5 14V17C20.5 19.4853 18.4853 21.5 16 21.5C13.5147 21.5 11.5 19.4853 11.5 17V14Z" stroke="#e2e8f0" stroke-width="1.4" stroke-dasharray="2 1.5" stroke-opacity="0.85"/>
+  <circle cx="16" cy="15.5" r="2.2" fill="#f5a623"/>
+  <line x1="12" y1="15.5" x2="20" y2="15.5" stroke="#f5a623" stroke-width="1.2" stroke-opacity="0.6"/>
+  <line x1="16" y1="11.5" x2="16" y2="19.5" stroke="#f5a623" stroke-width="1.2" stroke-opacity="0.6"/>
+</svg>
